@@ -155,7 +155,6 @@ def main():
         st.markdown('**1.1. Glimpse of dataset**')
         st.write(df)
         
-        # Add the "Build Model" button
         if st.button("Build Model"):
             build_model(df, split_size, params, model_type)
     else:
